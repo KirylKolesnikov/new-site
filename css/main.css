@@ -127,11 +127,6 @@ body.lock{
 
 /* Hero */
 
-.hero {
-    
-    padding: 140px 0 120px;
-}
-
 .works-body {
     margin-top: 25px;
 }
@@ -170,7 +165,8 @@ body.lock{
 /* Services */
 .services {
     background-color: #F1F1F1;
-    margin:140px 0;
+    margin-bottom: 140px;
+    margin-top: 25px;
 }
 
 .service-title {
@@ -179,8 +175,13 @@ body.lock{
 .service-end{
     display: flex;
     flex-direction: column;
+    padding: 0 20px 30px 35px;
     
 }
+ .lesson-list ul li{
+    list-style: image url(../img/services/kashpng.png);
+    
+} 
 
 .service-end ul li {
     list-style: image url(../img/services/kashpng.png);
@@ -238,6 +239,9 @@ body.lock{
     font-size: 18px;
      
 }
+.work-list{
+    padding: 0 20px 30px 25px;
+}
 .work-list ul li{
     
     list-style: image url(../img/services/ok.png);
@@ -275,6 +279,9 @@ body.lock{
 
 .lesson-title {
     padding: 1px 0 10px 0;
+}
+.lesson-end{
+    padding: 0 20px 30px 35px;
 }
 .lesson-end ul li{
     list-style: image url(../img/socials/okay.png);
